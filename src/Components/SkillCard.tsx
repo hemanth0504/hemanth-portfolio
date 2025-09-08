@@ -1,15 +1,12 @@
 // src/Components/SkillCard.tsx
 import { Avatar } from "@mantine/core";
 
-import bootstrap from "../assets/Icons/Bootstrap.png";
 import c from "../assets/Icons/C.png";
 import cpp from "../assets/Icons/C++.png";
 import css from "../assets/Icons/CSS.png";
 import expressjs from "../assets/Icons/Express JS.png";
-import firebase from "../assets/Icons/Firebase.png";
 import git from "../assets/Icons/Git.png";
 import github from "../assets/Icons/Github.png";
-import gsap from "../assets/Icons/GSAP.png";
 import html from "../assets/Icons/HTML.png";
 import javascript from "../assets/Icons/JavaScript.png";
 import materialui from "../assets/Icons/Material UI.png";
@@ -37,7 +34,6 @@ const ICONS: Record<string, string> = {
   cpp,
   css,
   expressjs,
-  firebase,
   git,
   github,
   html,
