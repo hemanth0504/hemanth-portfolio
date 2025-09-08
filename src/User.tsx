@@ -16,27 +16,27 @@ bio: (
 
 const ProjectInfo = [
      {
-        title: "Tradeit- Crypto Trading platform",
+        title: "Tradeit",
         desc: "Built a full-stack trading platform that integrates live market data, AI-powered chat, secure authentication, and payment systems. Designed with scalability and production-grade deployment in mind, leveraging AWS ECS Fargate, API Gateway, and CloudFront",
         image: "Tradeit.png",
-        live: false,
+        live: true,
         technologies: ["React", "Springboot", "MySQL"],
         link: "https://d9tpl2eurukj.cloudfront.net/signup",
         github: "https://github.com/hemanth0504/Trading-Application-SpringBoot-React-AWS-"
     },{
-        title: "PathFinder - Learning Management System",
+        title: "PathFinder",
         desc: "Developed a responsive Learning Management System with Next.js, Tailwind CSS (frontend) and Node.js,Express.js (backend), deployed on AWS cloud infrastructure to support secure operations for 1,000+ users Containerized the application using Docker for streamlined deployment in a scalable microservices architecture,integrating AWS Lambda, DynamoDB, and API Gateway for a serverless design, and AWS S3 for storage",
         image: "PathFinder.png",
         live: true,
         technologies: ["Node.js","Express.js","AWS","React"],
         link: "https://path-finder-amber.vercel.app/",
-        github: "https://github.com/Code-Mars/Ekart/"
+        github: "https://github.com/hemanth0504/PathFinder"
     },
     {
         title: "Project360X",
         desc: "Architected a Project Management Dashboard with Next.js, Tailwind CSS, and MUI Data Grid for advanced data views, using Redux Toolkit, RTK Query, and React DnD for state, data fetching, and drag-and-drop UX. Deployed backend services with Node.js, Express, and PostgreSQL, using AWS Cognito for user authentication,Lambda for serverless logic, RDS for storage, API Gateway for routing, and S3 for static asset hosting",
         image: "Project360X.png",
-        live: false,
+        live: true,
         technologies: ["React", "Tailwind"],
         link: "https://github.com/hemanth0504/Project-360X",
         github: "https://github.com/hemanth0504/Project-360X"
@@ -45,25 +45,25 @@ const ProjectInfo = [
         title: "Resume-Pilot",
         desc: " Created an AI-powered SaaS platform utilizing Next.js, integrating ChatGPT API for intelligent resume auto-fill,dynamic multi-step forms with React Hook Form, driving a 20% enhancement in user engagement Constructed a robust backend with PostgreSQL and Prisma ORM, integrating Stripe Checkout for subscriptions",
         image: "ResumePilot.png",
-        live: false,
+        live: true,
         technologies: ["React", "Springboot", "Tailwind", "Tabler-Icons", "MongoDB"],
-        link: "https://github.com/Code-Mars/Spotify-Clone",
-        github: "https://github.com/Code-Mars/Spotify-Clone"
+        link: "https://nextjs-resume-pilot.vercel.app/",
+        github: "https://github.com/hemanth0504/Resume-Pilot"
     },
     {
         title: "Connectly",
         desc: "Travel Tracker is a full-stack web application that allows users to track their travel experiences and share them with others. The front end is built with React, Bootstrap, while the back end uses Node.js, Express, and PostgresSQL. Users can create an account, log in, add new trips, and view their past trips on a map. The app features a clean, modern design with interactive maps and a user-friendly interface. Travel Tracker combines functionality with style, making it easy and enjoyable to record and share travel memories.",
         image: "Connectly.png",
-        live: false,
+        live: true,
         technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
-        link: "https://nextjs-resume-pilot.vercel.app",
-        github: "https://github.com/hemanth0504/Resume-Pilot"
+        link: "https://github.com/hemanth0504/Connectly",
+        github: "https://github.com/hemanth0504/Connectly"
     },
     {
         title: "Event-Portfolio",
         desc: "Designed a decor rental platform with React and Tailwind CSS for responsive design, achieving 2× faster bookings Used Zustand for state management, JWT authentication for secure sessions, and integrated Stripe for payments Built RESTful APIs with Node.js, Express, and MongoDB, and an admin dashboard with full CRUD functionality",
         image: "EventPortfolio.png",
-        live: false,
+        live: true,
         technologies: ["React", "Tailwind", "Ace Editor"],
         link: "https://aadhya-signature-events.onrender.com/",
         github: "https://github.com/hemanth0504/Event-Portfolio"
