@@ -20,7 +20,7 @@ const SideBar=()=> {
         </Drawer.Content>
       </Drawer.Root>
 
-      <Burger className='bs:!hidden !z-50 relative' size={size} color='#64FFDA' opened={opened} onClick={toggle}  />
+      <Burger className='bs:!hidden !z-50 relative' size={size} color='#3B82F6' opened={opened} onClick={toggle}  />
     </>
   );
 }

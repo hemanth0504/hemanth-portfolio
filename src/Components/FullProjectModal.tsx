@@ -13,22 +13,22 @@ const FullProjectModal = (props: any) => {
             </Modal.Header>
             <Modal.Body className="!bg-bgColor xs-mx:!p-2 !pt-2 !border-primaryColor  !border-2 !border-t-0 !rounded-bl-3xl !rounded-br-3xl">
                 <Image
-                    className="!rounded-xl !shadow-[0_0_5px_0_#64FFDA]"
+                    className="!rounded-xl !shadow-[0_0_5px_0_#3B82F6]"
                     src={props.image}
                     alt={props.image}
                 />
                 <div className="flex flex-wrap gap-3 xs-mx:gap-2 my-3">
-                    {props.technologies.map((tech: string, index: number) => <Badge key={index} size={techno} variant="light" color="#64FFDA">{tech}</Badge>)}
+                    {props.technologies.map((tech: string, index: number) => <Badge key={index} size={techno} variant="light" color="#3B82F6">{tech}</Badge>)}
                 </div>
-                <Text className="!text-justify !text-lg sm-mx:!text-base xs-mx:!text-xs"  c="dimmed">
+                <Text className="!text-justify !text-lg sm-mx:!text-base xs-mx:!text-xs !text-slate-300 "  c="dimmed">
                     {props.desc}
                 </Text>
                 <Group justify="space-between" mt="md" mb={3} >
-                    <a href={props.github} target="_blank" className="!w-[48%] sm-mx:!w-[46%]"><Button variant="outline" size={btn} color="#64FFDA" fullWidth  radius="md">
+                    <a href={props.github} target="_blank" className="!w-[48%] sm-mx:!w-[46%]"><Button variant="outline" size={btn} color="#3B82F6" fullWidth  radius="md">
                         View Code
                     </Button>
                     </a>
-                    <a href={props.link} target="_blank" className="!w-[48%] "><Button size={btn} color="#64FFDA" className="!text-bgColor" fullWidth radius="md">
+                    <a href={props.link} target="_blank" className="!w-[48%] "><Button size={btn} color="#3B82F6" className="!text-bgColor" fullWidth radius="md">
                         View Live App
                     </Button></a>
                 </Group>

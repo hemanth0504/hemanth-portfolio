@@ -22,7 +22,8 @@ const About = () => {
       <div
         data-aos="zoom-out-up"
         data-aos-duration="800"
-        className="mt-28 flex relative overflow-hidden justify-around items-center font-mono px-10 py-10 sm-mx:px-4 xs-mx:px-2 xs-mx:py-4 h-fit lg-mx:justify-between bs-mx:flex-wrap bs-mx:flex-col-reverse bs-mx:!overflow-visible bs-mx:gap-6 md-mx:px-6"
+        className="mt-[90px]
+ flex relative overflow-hidden justify-around items-center font-mono px-10 py-10 sm-mx:px-4 xs-mx:px-2 xs-mx:py-4 h-fit lg-mx:justify-between bs-mx:flex-wrap bs-mx:flex-col-reverse bs-mx:!overflow-visible bs-mx:gap-6 md-mx:px-6"
         id="About"
       >
         <Particles
@@ -31,7 +32,7 @@ const About = () => {
           ease={80}
           vx={0.1}
           vy={0.1}
-          color="#64FFDA"
+          color="#3B82F6"
           refresh
         />
 
@@ -67,7 +68,7 @@ const About = () => {
               onClick={open}
               className="focus-visible:!outline-none !text-bgColor !w-fit xs-mx:!w-[46%]"
               size={btn}
-              style={{ backgroundColor: "#64FFDA", color: "#0A192F" }}
+              style={{ backgroundColor: "#3B82F6", color: "#F1F5F9" }}
             >
               Check Resume
             </Button>
@@ -76,10 +77,10 @@ const About = () => {
               component="a"
               href="/Resume.pdf"
               download={Info.name}
-              className="focus-visible:!outline-none !text-primaryColor !w-fit xs-mx:!w-[46%]"
+              className="focus-visible:!outline-none !text-textColor !w-fit xs-mx:!w-[46%]"
               size={btn}
               variant="outline"
-              color="teal"
+              color="#3B82F6"
               rightSection={<IconDownload size={20} />}
             >
               Download

@@ -77,7 +77,7 @@ const Contact = () => {
       <div
         data-aos="flip-left"
         data-aos-duration="800"
-        className="w-[70%] lg-mx:w-full shadow-[0_0_10px_0_#64FFDA50] m-auto flex flex-col gap-6 border border-primaryColor p-8 rounded-3xl sm-mx:p-4"
+        className="w-[70%] lg-mx:w-full shadow-[0_0_10px_0_#3B82F650] m-auto flex flex-col gap-6 border border-primaryColor p-8 rounded-3xl sm-mx:p-4"
       >
         <div className="text-3xl flex gap-2 items-center text-white font-semibold sm-mx:text-2xl xs-mx:text-xl">
           Let's Connect
@@ -95,7 +95,7 @@ const Contact = () => {
           variant="filled"
           size={btn}
           radius="lg"
-          color="#64FFDA"
+          color="#3B82F6"
         >
           Send
         </Button>

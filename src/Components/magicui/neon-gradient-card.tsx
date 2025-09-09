@@ -77,10 +77,10 @@ const NeonGradientCard: React.FC<NeonGradientCardProps> = ({
   children,
   borderSize = 4,
   borderRadius = 9999,
-  neonColors = {
-    firstColor: "#00FEC1",
-    secondColor: "#00FFF1",
-  },
+ neonColors = {
+  firstColor: "#3B82F6",  // blue
+  secondColor: "#6366F1", // indigo
+},
   ...props
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);

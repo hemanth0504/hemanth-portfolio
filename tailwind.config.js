@@ -4,12 +4,16 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        bgColor: "#112240",
-        primaryColor: "#64FFDA",
-        textColor: "#8892B0"
-      },
+  extend: {
+  colors: {
+    bgColor: "#0F172A",         // background
+    surfaceColor: "#1E293B",    // card/surface
+    borderColor: "#334155",     // border
+    textColor: "#F1F5F9",     // main text
+    primaryColor: "#3B82F6",    // blue accent
+    secondaryColor: "#22C55E",  // green accent
+    accentColor: "#F97316",     // orange CTA
+  },
       animation: {
         backgroundPositionSpin:
           "background-position-spin 3000ms infinite alternate",

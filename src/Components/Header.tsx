@@ -54,7 +54,7 @@ const Header = () => {
       <IconHexagonLetterH
         className="z-10"
         size={isMobile ? 45 : 60}
-        color="#64FFDA"
+        color="#3B82F6"
         stroke={1.25}
       />
       <div className="hidden bs:flex gap-8">{navLinks(false)}</div>
