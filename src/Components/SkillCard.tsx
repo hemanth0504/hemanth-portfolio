@@ -25,8 +25,17 @@ import vscode from "../assets/Icons/VS Code.png";
 import java from "../assets/Icons/Java.png"; 
 import springtoolsuite from "../assets/Icons/springtoolsuite.png";
 import postgresql from "../assets/Icons/Postgres.png";
-
-
+import restapi from "../assets/Icons/restapi.png"
+import aws from "../assets/Icons/aws.png"
+import python from "../assets/Icons/python.png"
+import sql from "../assets/Icons/sql.png"
+import r from "../assets/Icons/r.png"
+import gcp from "../assets/Icons/gcp.png"
+import docker from "../assets/Icons/docker.png"
+import kubernetes from "../assets/Icons/kubernetes.png"
+import CI from "../assets/Icons/CI.png"
+import nextjs from "../assets/Icons/nextjs.png"
+import graphql from "../assets/Icons/graphql.png"
 
 // 🔹 Build a lookup map (keys normalized: lowercase, no spaces, no +)
 const ICONS: Record<string, string> = {
@@ -53,7 +62,18 @@ const ICONS: Record<string, string> = {
   springboot,
   tailwindcss,
   typescript,
+  restapi,
   vscode,
+  aws,
+  python,
+  sql,
+  r,
+  gcp,
+  docker,
+  kubernetes,
+  CI,
+  nextjs,
+  graphql
 };
 
 // 🔹 Normalize function to match props.skills → keys
